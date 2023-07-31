@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+  char ch =97;
+  cout<<ch<<endl; 
+
+  int num ='b';
+  cout<<num<<endl;
+  
+  // short a = 5;
+  // cout<<sizeof(a)<<endl;
+  
+// int a=5;
+//   cout<<"value of a is : "<<a<<endl;
+
+//   char ch = 'a';
+//   cout<<"value of ch is : "<<ch<<endl;
+
+//   bool flag= true;
+//   cout<<"value of flag is : "<<flag<<endl;
+  
+  // cout<<'2';
+  // cout<<"2";
+  // cout<<2;
+  // cout<<"Namaste Bharat\n"<<endl; 
+  // cout<<'\n';
+  // or use \n
+
+  // cout<<"Enter a number"<<endl;
+  // int a;
+  // //taking input
+  // cin>>a;
+  // cout<<"You entered "<<a;
+}
