@@ -1,0 +1,113 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+
+  //Solid Square Pattern
+  // int n;
+  // cin>>n;
+  // for(int row=0;row<n;row++)
+  //   {
+  //     for(int col=0;col<n;col++)
+  //       {
+  //         cout<<"* ";
+  //       }
+  //     cout<<endl;
+  //   }
+
+  //Hollow Square pattern
+  // int n;
+  // cin>>n;
+  // for(int row=0;row<n;row++)
+  //   {
+  //     if(row==0 || row==n-1)
+  //     {
+  //       for(int col=0;col<n;col++)
+  //         {
+  //           cout<<"* ";
+  //         }
+  //     }
+  //     else{
+  //       cout<<"* ";
+  //       for(int col=0;col<n-2;col++)
+  //         {
+  //           cout<<"  ";
+  //         }
+  //       cout<<"* ";
+  //     }
+  //     cout<<endl;
+  //   }
+
+
+  // /Hollow inverted half pyramid
+
+  // int n;
+  // cin>>n;
+  // for(int i=0;i<n;i++)
+  //   {
+  //     for(int j=0;j<n;j++)
+  //       {
+  //         if(i==0 || j==0 || j==n-i)
+  //         {
+  //           cout<<"* ";
+  //         }
+  //         else 
+  //         cout<<"  ";
+  //       }
+  //     cout<<endl;
+  //   }
+
+  //Full Pyramid
+  // int n;
+  // cin>>n;
+  // for(int i=0;i<n;i++)
+  //   {
+  //     int k=0;
+  //     for(int j=0;j<((2*n)-1);j++)
+  //       {
+  //         if(j<n-i-1)
+  //         {
+  //           cout<<" ";
+  //         }
+  //         else if(k<2*i+1)
+  //         {
+  //           cout<<"*";
+  //           k++;
+  //         }
+  //         else
+  //           cout<<" ";
+  //       }
+  //     cout<<endl;
+  //   }
+
+
+  //Hollow Full Pyramid
+
+  int n;
+  cin>>n;
+  for(int i=0;i<n;i++)
+    {
+      int k=0;
+      for(int j=0;j<((2*n)-1);j++)
+        {
+          if(j<n-i-1)
+          {
+            cout<<" ";
+          }
+          else if(k<2*i+1)
+          {
+            if(k==0 || k==2*i || i==n-1)
+            {
+              cout<<"*";
+            }
+            else 
+              cout<<" ";
+            k++;
+          }
+          else{
+            cout<<" ";
+          }
+        }
+      cout<<endl;
+    }
+}
