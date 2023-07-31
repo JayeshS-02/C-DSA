@@ -1,0 +1,90 @@
+#include <iostream>
+using namespace std;
+int main() {
+  // bool a =false;
+  // bool b= true;
+  // cout<< (a|b);
+  // cout<<(a^b);
+  // cout<<(2 & 3);
+  //
+  // cout<<(5 & 10); //converts in binary and take & operation
+
+  //Left and Right Shift 
+  // int a=12;
+  //   a=a<<3;
+  //   cout<<a;
+
+  // int a=25;
+  // a=a>>1;
+  // cout<<a;
+
+  //Pre and Post increment
+  // int a=11;
+  // // cout<<a;
+  // // cout<<++a;
+  // cout<<a++;
+  // cout<<endl;
+  // cout<<a;
+
+  // int a=6;
+  //   int c= ++a +1;
+  //   cout<<c;
+
+  // int a=3;
+    // int b=4;
+    // int c=(--a)*(b++);
+    // cout<<c;
+    
+    // int a=5; //answer should be 49 compiler based on compiler
+    // cout<<(++a)*(++a);
+
+  //Break Statement
+  // for(int i=0;i<5;i++)
+  //   {
+  //       cout<<"Babbar";
+  //       break;
+  //   }
+  //   cout<<"Love";
+
+
+  // //continue
+  // for(int i=0;i<5;i++)
+  //   {
+  //       continue;
+  //       cout<<"Babbar";
+        
+  //   }
+  //   cout<<"Love";
+
+
+  // Variable Scope
+
+  // int a;
+  // int b=5;
+  // b=10;
+  // if(true)
+  // {
+  //   // int b=15;
+  //   cout<<b<<endl;
+  // }
+  // cout<<b;
+
+  //Switch Case
+  cout<<"Enter the value : ";
+  int val;
+  cin>>val;
+  switch(val)
+    {
+      case 1: cout<<"Love";
+      break;
+      case 2: cout<<"Babbar";
+      continue;
+      case 3: cout<<"Ramesh";
+      break;
+      case 4: cout<<"Suresh";
+      break;
+      default : cout<<"Jayesh";
+      break;
+    }
+  
+}
