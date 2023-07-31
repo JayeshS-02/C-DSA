@@ -1,0 +1,158 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+  // //Printing solid rectangle
+
+  // //Outer Loop -Row
+  // for(int row=0;row<3;row++)
+  //   {
+
+  //     //Inner Loop-Col
+  //     for(int col=0;col<5;col++)
+  //       {
+  //         cout<<"*"<<"\t";
+  //       }
+  //     cout<<endl;
+  //   }
+
+  //By taking input from user
+  // int n; //row number
+  //   int m; //col number
+  //   cout<<"Enter the value of row\n";
+  //   cin>>n;
+  //   cout<<"Enter value of column\n";
+  //   cin>>m;
+  //   for(int row=0;row<n;row++)
+  //   {
+  //       for(int col=0;col<m;col++)
+  //       {
+  //           cout<<"* ";
+  //       }
+  //       cout<<endl;
+  //   }
+
+
+  
+  //SOlid Square
+
+  // int n; //row and col no.
+  // cout<<"Enter value of row and col :\n";
+  // cin>>n;
+  // for(int row=0;row<n;row++)
+  //   {
+  //     for(int col=0;col<n;col++)
+  //       {
+  //         cout<<"* ";
+  //       }
+  //     cout<<endl;
+  //   }
+
+
+  
+  //Hollow Rectangle
+
+  // for(int row=0;row<3;row++)
+  //   {
+  //       for(int col=0;col<5;col++)
+  //       {
+  //           if((row==1)&&(col==1 || col==2 || col==3))
+  //           {
+  //               cout<<"  ";
+  //           }
+  //           else
+  //           cout<<"* ";
+  //       }
+  //       cout<<endl;
+  //   }
+
+
+
+  //Hollow Rectangle Generic way
+
+  // int rowCount,colCount;
+  //   cin>>rowCount;
+  //   cin>>colCount;
+  // for(int row=0;row<rowCount;row++)
+  //   {
+  //       if(row==0 || row==rowCount-1)
+  //       {
+  //           for(int col=0;col<colCount;col++)
+  //           {
+  //               cout<<"* ";
+  //           }
+  //       }
+  //       else
+  //       {
+  //           cout<<"* ";
+  //           for(int col=0;col<colCount-2;col++)
+  //           {
+  //               cout<<"  ";
+  //           }
+  //           cout<<"* ";
+  //       }
+  //       cout<<endl;
+  //   }
+
+
+
+  //Half Pyramid
+
+  // int n;
+  // cin>>n;
+  // for(int row=0;row<n ;row++)
+  //   {
+  //     for(int col=0;col<row+1;col++)
+  //       {
+  //         cout<<"* ";
+  //       }
+  //     cout<<endl;
+  //   }
+
+
+
+  //Inverted Half Pyramid
+
+  // int n; //row count
+  // cin>>n;
+  // for(int row=0;row<n;row++)
+  //   {
+  //     for(int col=0;col<n-row;col++)
+  //       {
+  //         cout<<"* ";
+  //       }
+  //     cout<<endl;
+  //   }
+
+
+  //Numerical Half Pyramid
+
+  // int n;
+  //   cin>>n;
+  //   for(int row=0;row<n;row++)
+  //   {
+  //       for(int col=0;col<row+1;col++)
+  //       {
+  //           cout<<col+1;
+  //       }
+  //       cout<<endl;
+  //   }
+
+
+  //Inverted Numeric half pyramid
+
+  // int n;
+  // cin>>n;
+  // for(int row=0;row<n;row++)
+  //   {
+  //     for(int col=0;col<n-row;col++)
+  //       {
+  //         cout<<col+1;
+  //       }
+  //     cout<<endl;
+  //   }
+
+
+  //Full Pyramid
+  
+}
