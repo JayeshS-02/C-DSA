@@ -1,0 +1,166 @@
+#include <iostream>
+using namespace std;
+
+// Area of Circle
+//  float AreaFun(int radius)
+//  {
+//      float area=2*3.14f*radius;
+//      return area;
+//  }
+//  int main()
+//  {
+//    int radius;
+//    cout<<"Enter the radius of circle : ";
+//    cin>>radius;
+//    cout<<"The are of circle is "<<AreaFun(radius);
+//  }
+
+// find Number is EVEN or ODD
+//  string EvenOdd(int n)
+//  {
+//      if(n%2==0)
+//      {
+//          return "EVEN";
+//      }
+//      else
+//      return "ODD";
+//  }
+//  int main()
+//  {
+//      int n;
+//      cout<<"Enter a number to check ODD or EVEN : ";
+//      cin>>n;
+//      cout<<"The Number is : "<<EvenOdd(n);
+//  }
+
+// Find Factorial of Number
+//  int Factorial(int n)
+//  {
+//      int fact=1;
+//      for(int i=1;i<=n;i++)
+//      {
+//          fact=fact*i;
+//      }
+//      return fact;
+//  }
+//  int main()
+//  {
+//      int n;
+//      cout<<"Enter the number to find factorial : ";
+//      cin>>n;
+//      cout<<"The factorial of the given number is : "<<Factorial(n);
+//      return 0;
+//  }
+
+// check number is prime or not
+//  bool PrimeCheck(int n)
+//  {
+
+//     for(int i=2;i<=n-1;i++)
+//     {
+
+//         if(n%i==0)
+//         {
+//             return false;
+
+//         }
+
+//     }
+//   return true;
+// }
+// int main()
+// {
+//     int n;
+//     cout<<"Enter the number to check prime or not : ";
+//     cin>>n;
+//     bool isPrime=PrimeCheck(n);
+//     if(isPrime)
+//     {
+//         cout<<"Prime"<<endl;
+//     }
+//     else
+//     cout<<"Not Prime";
+// }
+
+// prime Number from 1 to N
+//  bool checkPrime(int n)
+//  {
+//    for(int i=2;i<n;i++)
+//      {
+//        if(n%i==0)
+//        {
+//          return false;
+//        }
+//      }
+//    return true;
+//  }
+//  int main()
+//  {
+//    int n;
+//    cout<<"Enter number upto which you want to print prime numbers : ";
+//    cin>>n;
+//    for(int i=2;i<=n;i++)
+//      {
+//        bool isiPrime=checkPrime(i);
+//        if(isiPrime)
+//        {
+//          cout<<i<<" ";
+//        }
+//      }
+//  }
+
+// integer in reverse order
+//  int reverse(int n)
+//  {
+//    int ans=0,remainder;
+//    bool isNegative=false;
+//    if(n<0)
+//    {
+//      isNegative=true;
+//      n=-n;
+//    }
+//    while(n>0)
+//      {
+//        int remainder=n%10;
+//        ans=(ans*10)+remainder;
+//        n=n/10;
+//      }
+//    return isNegative ? -ans : ans;
+//  }
+//   int main()
+//  {
+//    int n;
+//    cout<<"Enter the integer : ";
+//    cin>>n;
+//    cout<<reverse(n);
+//  }
+
+// Set Kth Bit
+//  int bitset(int n , int k)
+//  {
+//    return (1<<k)|n;
+//  }
+//  int main()
+//  {
+//    int n=15;
+//    int k=3;
+//    cout<<"set Kth bit : "<<bitset(n,k);
+//  }
+
+// Convert Temperature
+float FarenheitConvert(float C) {
+  float Result = (C * 9 / 5) + 32;
+  return Result;
+}
+float KelvinConvert(float C) {
+  float result = C + 273.15f;
+  return result;
+}
+int main() {
+  float C;
+  cout << "Enter temperature in celcius :";
+  cin >> C;
+  cout << "Temp in Farenheit : " << FarenheitConvert(C) << endl;
+  cout << "Temp in Kelvin : " << KelvinConvert(C) << endl;
+  return 0;
+}
