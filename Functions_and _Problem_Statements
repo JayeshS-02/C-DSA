@@ -1,0 +1,170 @@
+#include <iostream>
+using namespace std;
+
+// void printname()
+// {
+//   int val;
+//   cout<<"Enter the value ";
+//   cin>>val;
+//   for(int i=0;i<val;i++)
+//     {
+//       cout<<"Babbar"<<endl;
+//     }
+// }
+
+// int main() {
+//   printname();
+// }
+
+// Function to add 2 numbers
+
+// void addNum(int num1,int num2)
+// {
+//   cout<<num1+num2;
+// }
+// int main()
+// {
+//   int a=5;
+//   int b=4;
+//   addNum(a,b);
+//   return 0;
+// }
+// int add(int x,int y)
+// {
+//   int result=x+y;
+//   return result;
+// }
+// int main()
+// {
+//   int a;
+//   cin>>a;
+//   int b;
+//   cin>>b;
+//   int sum=add(a,b);
+//   cout<<sum<<endl;
+// }
+
+// Max of 3 numbers
+//  int findMax(int x,int y, int z)
+//  {
+//    if(x>y && x>z)
+//    {
+//      return x;
+//    }
+//    else if(y>x && y>z)
+//    {
+//      return y;
+//    }
+//    else
+//    {
+//      return z;
+//    }
+//  }
+//  int main()
+//  {
+//    int a,b,c;
+//    cin>>a;
+//    cin>>b;
+//    cin>>c;
+//    int maximumNumber=findMax(a,b,c);
+//    cout<<maximumNumber;
+//    return 0;
+//  }
+
+// Counting Number frim 1 to N
+//  void printCounting(int n)
+//  {
+//    for(int i=1;i<=n;i++)
+//      {
+//        cout<<i<<endl;
+//      }
+//  }
+//  int main()
+//  {
+//    int n;
+//    cin>>n;
+//    printCounting(n);
+//  }
+
+// Student and Grade
+// char Grade(int marks) {
+//   if (marks > 90) {
+//     return 'A';
+//   } else if (marks > 80) {
+//     return 'B';
+//   } else if (marks > 70) {
+//     return 'C';
+//   } else if (marks > 60) {
+//     return 'D';
+
+//   } else {
+//     return 'F';
+//   }
+// }
+
+//using switch case
+// char Grade(int marks)
+// {
+//   switch(marks/10)
+//     {
+//       case 10: ;
+//       case 9: return 'A'; 
+//       break;
+//       case 8: return 'B'; 
+//       break;
+//       case 7: return 'C'; 
+//       break;
+//       case 6: return 'D'; 
+//       break;
+//       default: return 'F';
+//     }
+// }
+// int main() {
+//   int marks;
+//   cout << "Enter Marks :" << endl;
+//   cin >> marks;
+//   char finalGrade = Grade(marks);
+//   cout << "Final Grade : " << finalGrade;
+//   return 0;
+// }
+
+//Sum from 1 to N
+// int addingNum(int n)
+// {
+//   int result=0;
+//   for(int i=1;i<=n;i++)
+//     {
+//       result=result+i;
+//     }
+//   return result;
+// }
+// int main()
+// {
+//   int n;
+//   cout<<"Enter the value of n :";
+//   cin>>n;
+//   int sum=addingNum(n);
+//   cout<<sum;
+//   return 0;
+// }
+
+
+//Even Sum upto N
+int evenSum(int n)
+{
+  int result =0;
+  for(int i=2;i<=n;i=i+2)
+    {
+      result=result+i;
+    }
+  return result;
+}
+int main()
+{
+  int n;
+  cout<<"Enter the value of n :";
+  cin>>n;
+  int sum=evenSum(n);
+  cout<<sum;
+  return 0;
+}
